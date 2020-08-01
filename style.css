@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: linear-gradient(to top, rgba(202,222,255,1) 0%, rgba(216,216,254,1) 51%, rgba(255,255,255,1) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-bottom: 20px;
+}
+
+h1,h5,h6,p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+}
+
+h1{
+  margin-top: 30px;
+}
+
+h6{
+  margin-bottom: 30px;
+}
+
+#container{
+  width: 80%;
+}
+
+#type-list{
+  width: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* SEARCH */
+#search{
+  position: relative;
+}
+
+#input-search{
+  /* display: inline-block; */
+}
+
+#button-send{
+  box-shadow: none;
+  background-color: #bbdefb;
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+#button-send:hover{
+  background-color: #cadeff;
+}
+
+/* CARTA MINI */
+#min-carta-pokemon{
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.min-carta-pokemon img{
+  width: 100%;
+  display: block;
+}
+
+#min-carta-name{
+  font-size: 12px;
+  text-align: center;
+}
+
+/* CARTA GRANDE */
+#unPokemon{
+  padding: 20px;
+}
+
+#carta{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+#carta-nombre{
+  text-align: center;
+  margin: 10px;
+}
+
+#carta-img img{
+  width: 100%;
+}
+
+#carta-graph{
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+#carta-datos{
+  margin-top: 40px;
+}
+
+#carta-datos h6{
+  margin: 0;
+  font-size: 25px;
+}
+
+#carta-weight{
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+#button-cerrar{
+  float: right;
+  border: none;
+}

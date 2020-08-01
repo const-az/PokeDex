@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PokeDex</title>
+  <!-- Google Fonts: Ralewey(300) -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+  <!--Font Awesome 5.6.3-->
+  <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"crossorigin="anonymous">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>PokéDex</h1>
+  <h6>FIRST GENERATION: KANTO</h6>
+
+  <div class="container" id="container">
+
+    <div class="row">
+      <div class="input-field col s3" >
+        <select id="type-list">
+          <option value="all" onclick="pokemonAll()">All</option>
+        </select>
+        <label>Select Type</label>
+      </div>
+
+      <div class="col s6">  </div>
+
+      <div class="col s3">
+        <div class="row" id="search">
+          <form class="input-field col s10" id="input-search" action="index.html" method="post">
+            <label>Search</label>
+            <input type="text" id="searchPokemon" name="" value="">
+          </form>
+
+          <button class="input-field btn-small col s2" id="button-send" type="submit" name="action" onclick="searchPokemon()">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="unPokemon" id="unPokemon">
+    </div>
+
+    <div class="row "id="poner-cartas">
+    </div>
+  </div>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Canvas JS -->
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <!-- Script -->
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
