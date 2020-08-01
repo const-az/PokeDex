@@ -41,10 +41,6 @@ h6{
   position: relative;
 }
 
-#input-search{
-  /* display: inline-block; */
-}
-
 #button-send{
   box-shadow: none;
   background-color: #bbdefb;
@@ -122,4 +118,5 @@ h6{
 #button-cerrar{
   float: right;
   border: none;
+  background-color: white;
 }
